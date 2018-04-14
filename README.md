@@ -10,16 +10,16 @@ Terdapat dua jenis user , yaitu pembuat lelang pekerjaan dan peserta lelang peke
 Jalankan file eproc.py dengan command berikut
 
 ### Registrasi User Baru
-reg <<username>> <<password>>
+reg <username> <password>
 
 ### Login
-login <<username>> <<password>>
+login <username> <<password>
   
 ### Logout
 logout
 
 ### Buat "Lelang Pekerjaan" Baru
-create <<nama pekerjaan>>
+create <nama pekerjaan>
   
 ### Lihat Daftar "Lelang Pekerjaan" Milik Saya
 mylist
@@ -31,15 +31,15 @@ list
 closedlist
 
 ### Lihat Detil "Lelang Pekerjaan:
-getdetail <<idtor>>
+getdetail <idtor>
 untuk melihat idTOR , gunakan command "list"
   
 ### Pasang Proposal Keikutsertaan Pada Suatu "Lelang Pekerjaan"
-join <<idtor>> <<detil>>
+join <idtor> <detil>
  
 ### Pilih Pemenang Lelang
-choosewinner <<id_peserta_lelang>>
-Untuk melihat id peserta lelang, gunakan command "getdetail <<idtor>>"
+choosewinner <id_peserta_lelang>
+Untuk melihat id peserta lelang, gunakan command "getdetail <idtor>"
   
   
 ## TODO
