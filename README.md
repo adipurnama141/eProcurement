@@ -13,7 +13,7 @@ Jalankan file eproc.py dengan command berikut
 reg <username> <password>
 
 ### Login
-login <username> <<password>
+login <username> <password>
   
 ### Logout
 logout
