@@ -1,0 +1,25 @@
+Aplikasi Sistem e-Procurement
+
+FR
+	Buat Akun
+	Buat Lelang Pengadaan Baru
+	Daftar Jadi Peserta Lelang
+	Pilih Pemenang Lelang
+
+
+reg user pw
+login user pw
+logout
+
+create tor.tor
+mytor
+getmytordetail idtor
+choosewinner idretor
+
+list
+getdetail idtor
+join idtor detil.retor
+
+
+TODO
+	Jangan ada akun ganda (Your username is already used!)
